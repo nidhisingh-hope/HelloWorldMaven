@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>RELEASE-1.0</version>
+  <version>0.0.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -15,11 +15,11 @@
   </properties>
   
 <distributionManagement>
-     <!--  <repository>
-         <id>internal.repo</id>
+       <repository>
+         <id>internal.repo123</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myartifacts/</url>
-       </repository> -->
+       </repository> 
   
         <repository>
          <id>internal.repo</id>
