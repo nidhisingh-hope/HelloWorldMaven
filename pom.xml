@@ -20,16 +20,16 @@
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myartifacts/</url>
        </repository>
-        <repository>
+        <Snapshotrepository>
          <id>internal.repo</id>
          <name>nexus_Snapshot</name>
          <url>http://3.83.127.191:8081/repository/HelloWorld-Snapshot/</url>
-       </repository>
-       <repository>
+       </Snapshotrepository>
+       <Releaserepository>
          <id>internal.repo</id>
          <name>nexus_Release</name>
          <url>http://3.83.127.191:8081/repository/HelloWorld-Release/</url>
-       </repository>
+       </Releaserepository>
    </distributionManagement>
 
   <dependencies>
