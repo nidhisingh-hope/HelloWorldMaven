@@ -33,16 +33,7 @@
          <url>http://3.83.127.191:8081/repository/HelloWorld-Snapshot/</url>
        </snapshotRepository>  
        
-   </distributionManagement>
-  
-  <distributionManagement>
-       <repository>
-         <id>internal.repo123</id>
-         <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/myartifacts/</url>
-       </repository>  
-       
-   </distributionManagement>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
