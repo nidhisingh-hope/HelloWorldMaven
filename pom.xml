@@ -24,12 +24,12 @@
          <id>internal.repo</id>
          <name>nexus_Snapshot</name>
          <url>http://3.83.127.191:8081/repository/HelloWorld-Snapshot/</url>
-       </napshotRreepository>
-       <Releaserepository>
+       </snapshotRepository>
+       <releaseRepository>
          <id>internal.repo</id>
          <name>nexus_Release</name>
          <url>http://3.83.127.191:8081/repository/HelloWorld-Release/</url>
-       </Releaserepository>
+       </releaseRepository>
    </distributionManagement>
 
   <dependencies>
